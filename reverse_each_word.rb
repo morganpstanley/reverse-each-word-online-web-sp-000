@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
-  sentence.split(" ")
-  puts sentence.class
+  sentence_array = sentence.split(" ")
+  puts sentence_array
 end
 
 sentence = "Hello, how are you"
