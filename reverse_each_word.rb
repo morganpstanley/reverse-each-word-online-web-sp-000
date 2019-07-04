@@ -4,7 +4,6 @@ def reverse_each_word(sentence)
     word.reverse
   end
   puts sentence_array
-  end
 end
 
 sentence = "Hello, how are you"
