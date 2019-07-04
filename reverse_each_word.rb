@@ -3,8 +3,5 @@ def reverse_each_word(sentence)
   sentence_array.map do |word|
     word.reverse!
   end
-  puts sentence_array
+  return sentence_array
 end
-
-sentence = "Hello, how are you"
-reverse_each_word(sentence)
